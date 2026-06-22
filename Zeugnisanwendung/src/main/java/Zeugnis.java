@@ -35,8 +35,8 @@ public class Zeugnis {
     }
 
     public void sortSubjects() {
-        // Bubble Sort nach Bezeichnung der Gegenstände
-        // Vorgabe: Sortieren mit Collections.swap()
+        // Bubble Sort alphabetisch nach Bezeichnung der Gegenstände
+        // Collections.swap() wird wie gefordert verwendet
         for (int i = 0; i < gegenstaende.size() - 1; i++) {
             for (int j = 0; j < gegenstaende.size() - i - 1; j++) {
                 String name1 = gegenstaende.get(j).getBezeichnung();
